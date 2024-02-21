@@ -37,7 +37,7 @@ button {
 .nav-link {
   font-size: 18px;
   color: #E5E7EB;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 .hero-section {
@@ -125,4 +125,26 @@ button {
   font-size: 18px;
   color: grey;
   text-align: center;
+}
+
+.quote-section {
+  padding: 128px 472px 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #E5E7EB;
+}
+
+.quote-main-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1F2937;
+  margin-bottom: 8px;
+}
+
+.quote-caption {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
 }
