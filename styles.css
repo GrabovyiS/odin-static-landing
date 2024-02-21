@@ -79,7 +79,7 @@ button {
 
 .hero-button.button {
   background-color: #3882F6;
-  color: white;
+  color: #F9FAF8;
   align-self: flex-start;
 }
 
@@ -148,3 +148,41 @@ button {
   font-weight: bold;
   text-align: right;
 }
+
+.cta-section {
+  padding: 128px 256px; 
+  color: #E5E7EB;
+}
+
+.cta-container {
+  padding: 64px 192px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+  background-color:  #3882F6;
+  border-radius: 8px;
+}
+
+.cta-text-content {
+  flex: auto;
+}
+
+.cta-heading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #F9FAF8;
+  margin-bottom: 8px;
+}
+
+.cta-text {
+  color: #E5E7EB;
+}
+
+.cta-button {
+  flex: none;
+  background-color: transparent;
+  border: 2px solid #F9FAF8;
+  color: #F9FAF8;
+}
+
